@@ -1,0 +1,7 @@
+echo "# nadova" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/nakula77/nadova.git
+git push -u origin main
